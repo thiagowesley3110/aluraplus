@@ -6,9 +6,10 @@
     --botao-azul: #167BF7;
     --cor-de-fundo:#00030C;
     --font-primaria: 'Inter';
+    --cor-background-button:#869bb4;
 }
 body{
-    background-color: var(--botao-azul); 
+    background-color: var(--cor-de-fundo); 
     color: var(--branco-principal);
     font-family:var(--font-primaria);
     font-size: 16px;
@@ -145,6 +146,12 @@ body{
     padding: 0.5em 0;
     color: var(--);
     font-size: 14px;
-    font-weight:200;
-    
+    font-weight:200;  
 }
+.container__botao_botao2:hover{
+    color: var(--cor-de-fundo);
+    background-color:var(--branco-principal);
+}
+.container__botao:hover{
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-background-button);
